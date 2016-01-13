@@ -1,0 +1,9 @@
+module GlibcExtras [system] {
+  
+  module C {
+    module epoll {
+        header "/usr/include/x86_64-linux-gnu/sys/epoll.h"
+        export *
+    }
+  }
+}
